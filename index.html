@@ -8,48 +8,90 @@
 <html lang="en">
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Brown University Dorm Washing Machineso</title>
+    <title>Redesigned Air Force Webpage</title>
     <!-- import CSS styles -->
     <link rel="stylesheet" href="styles.css" /> 
   </head>
 
   <!-- page content goes into <body> -->
+  <!-- All images in assets were taken from google (downloaded or screenshoted) -->
   <body>
     <header>
-      <div class="logo">DesignThatWorks</div>
-      <nav>
-        <ul>
-          <li><a href="index.html" class="active">Home</a></li>
-          <li><a href="observations.html">Observations</a></li>
-          <li><a href="personas.html">Personas </a></li>
-          <li><a href="storyboard.html">Storyboard</a></li>
-        </ul>
-      </nav>
+      <div class="logo"> <img src="./assets/logo.png" alt="Air Force Logo"> </div>
+      <h1>WINGS: HOLM CENTER</h1>
+      <div class="nav-bar">
+          <button class="button">Sign In</button>
+          <button class="button">CAC Login</button>
+          <button class="button">&#9776;</button> <!--found how to insert hamburger menu icon using the &#9776 shortcut from this website: https://forum.manjaro.org/t/is-there-a-shortcut-code-for-the-hamburger-menu-symbol-this-thing/75168/2-->
+      </div>
     </header>
 
-    <main class="intro">
-      <h1>Fixing the Dorm Laundry Dilemma</h1>
-      <p>Exploring user experiences with Brown University dorm laundry machines. This project documents real user interactions, frustrations, and potential improvements to improve the user experience.</p>
+    <section class="notice">
+      <p class="title"><strong>NOTICE</strong><br></p>
+      <p>You are accessing a USG IS that is provided for USG-authorized use only. By using this IS, 
+        you consent to the following conditions:</p>
+      <ul>
+        <li>The USG routinely intercepts and monitors communications on this IS for purposes including, but not limited to, 
+          penetration testing, COMSEC monitoring, network operations and defense, PM, LE, and CI investigations.</li>
+        <li>At any time, the USG may inspect and seize data stored on this IS.</li>
+        <li>Communications using, or data stored on, this IS are not private, are subject to routine monitoring, interception, and 
+          may be used for any USG purpose.</li>
+        <li>This IS includes security measures to protect USG interests--not for your personal benefit or privacy.</li>
+        <li>Notwithstanding the above, using this IS does not constitute consent to PM, LE or CI investigative searching or 
+          monitoring of the content of privileged communications, or work product, related to personal representation or services 
+          by attorneys, psychotherapists, or clergy, and their assistants. Such communications and work product are private and 
+          confidential. See User Agreement for details.</li>
+      </ul>
+    </section>
+
+    <section class="notice-phone">
+      <p class="title"><strong>NOTICE</strong><br></p>
+      <p>You are accessing a USG IS that is provided for USG-authorized use only. Click to see more...</p>
+    </section>
+
+    <main class="grid">
+      <div class="card">
+          <h2>Air Force Officer Training School (OTS)</h2>
+          <ul>
+              <li><a href="">Website</a></li>
+              <li><a href="">Information for Inbound Officer Trainees</a></li>
+          </ul>
+          <img src="./assets/ots-logo.png" alt="OTS Logo">
+      </div>
+      <div class="card">
+          <h2>Reserve Officers' Training Corps (ROTC)</h2>
+          <ul>
+              <li><a href="">Fact Sheet</a></li>
+              <li><a href="">Website</a></li>
+              <li><a href="">Have a recruiter contact me</a></li>
+              <li><a href="">Apply for AFROTC</a></li>
+              <li><a href="">Current ROTC Cadet registration</a></li>
+          </ul>
+          <img src="./assets/rotc-logo.png" alt="ROTC Logo">
+      </div>
+      <div class="card">
+          <h2>Jeanne M. Holm Center for Officer Accessions</h2>
+          <ul>
+              <li><a href="">Fact Sheet</a></li>
+              <li><a href="">Website</a></li>
+          </ul>
+          <img src="./assets/holm-logo.png" alt="Holm Center Logo">
+      </div>
+      <div class="card">
+          <h2>Holm Center Experiential Learning Programs</h2>
+          <ul>
+              <li><a href="">Start Experiential Learning Application</a></li>
+          </ul>
+          <img src="./assets/holm-logo.png" alt="Holm Center Logo">
+      </div>
     </main>
 
-
-    <section class="previews">
-      <div class="preview">
-          <h2>Observations</h2>
-          <p>Discover key insights from real student interactions with dorm laundry machines.</p>
-          <a href="observations.html" class="button">Learn More</a>
-      </div>
-      <div class="preview">
-          <h2>Personas</h2>
-          <p>Meet fictional representations of typical users, based on real interviews.</p>
-          <a href="personas.html" class="button">View Personas</a>
-      </div>
-      <div class="preview">
-          <h2>Storyboarding</h2>
-          <p>Follow a typical user&apos;s laundry journey through a visual storyboard.</p>
-          <a href="storyboard.html" class="button">See Storyboard</a>
-      </div>
-    </section>
+    <footer>
+      <div class="footer-logo"> <img src="./assets/footer-logo.png" alt="Air Force Logo"> </div>
+      <p>Department of the U.S. Air Force</p>
+      <p>For More Info Call Toll Free 1-800-522-0033</p>
+      <p>For questions related to this site, Call (334) 953-3050 or email holmcenter.wings.support@us.af.mil</p>
+    </footer>
   
   </body>
 
